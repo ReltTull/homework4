@@ -1,7 +1,7 @@
 package sample;
 
-public class MyArraySizeExeption extends ArrayIndexOutOfBoundsException{
+public class MyArraySizeExeption extends MyExeption{
     public MyArraySizeExeption() {
-        super("Array size is not 4 x 4!");
+        super();
     }
 }
